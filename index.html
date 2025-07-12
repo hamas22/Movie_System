@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies App</title>
+    <!-- icons -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css" />  
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@300;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,500;1,700&family=Tajawal:wght@200;300;400;500;800;900&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body style="background-color: black;">
+  <!-- Navbar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top p-3">
+      <div class="container ">
+        <a class="navbar-brand  text-danger fw-bold text-light" href="#"><i class="fa-solid fa-film me-2 text-danger"></i> Movies</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto  mb-2 mb-lg-0 ">
+            <li class="nav-item mx-4">
+              <a class="nav-link active fw-bold text-danger " aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link fw-bold text-danger " aria-current="page" href="#movies">Movies</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link fw-bold text-danger" href="#coming soon">Coming Soon</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link fw-bold text-danger" href="#newsletter">Newsletter</a>
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <a href="#" class="btn btn-danger text-white mx-2">Sign In</a>
+        </div>
+      </div>
+    </nav>  
+    <!-- Navbar -->
+  
+
+  
+  <!-- Home -->
+<section id="home" class="home d-flex align-items-center">
+  <div class="home-text ps-5 pb-5 " style="margin-left:50px ; margin-top: 100px;">
+  <b>  <span class="text-uppercase fw-medium text-dark">Marvel Universe</span>
+    <h2 class="fw-bold mb-3 display-4 text-light">
+      Spider-Man<br />
+      Far From Home
+    </h2>
+  </b>
+    <a href="#" class="btn btn-danger px-4 py-2 rounded">Book Now</a>
+  </div>
+</section>
+
+<!-- Home -->
+
+    <!-- Movies -->
+    <section id="movies" class="movies py-5">
+  <div class="container-lg container-fluid">
+    <h2 class="heading text-light text-uppercase mb-4" style="font-size: 15px;">Opening this Week</h2>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0">
+          <img class="card-img-top w-100" src="img/m1.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">Venom</h3>
+          <span class="text-light" style="font-size: 15px;">120min | Action</span>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/m2.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">Dunkerk</h3>
+          <span class="text-light" style="font-size: 15px;">105min | Adventure</span>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/m3.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">Batman & Superman</h3>
+          <span class="text-light" style="font-size: 15px;">100min | Thriller</span>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/m4.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">John Wick</h3>
+          <span class="text-light" style="font-size: 15px;">120min | Adventure</span>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/m5.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">Aquaman</h3>
+          <span class="text-light" style="font-size: 15px;">130min | Action</span>
+        </div>
+      </div>
+        <!-- card 6-->
+         <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0">
+                      <img class="card-img-top w-100" src="img/m6.jpg" alt=""  style="height: 290px;"/>
+
+          <h3 class="card-title text-danger" style="font-size: 15px;">Black Panther</h3>
+          <span class="text-light" style="font-size: 15px;">90min | Thriller</span>
+        </div>
+         </div>
+        <!-- card 7-->
+         <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0">
+                      <img class="card-img-top w-100" src="img/m7.jpg" alt=""  style="height: 290px;"/>
+
+          <h3 class="card-title text-danger" style="font-size: 15px;">Thor</h3>
+          <span class="text-light" style="font-size: 15px;">130min | Action</span>
+        </div>
+         </div>
+        <!-- card 8-->
+         <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0">
+                      <img class="card-img-top w-100" src="img/m8.png" alt=""  style="height: 290px;"/>
+
+          <h3 class="card-title text-danger" style="font-size: 15px;">Bumblebee</h3>
+          <span class="text-light" style="font-size: 15px;">100min | Thriller</span>
+        </div>
+         </div>
+        <!-- card 9-->
+         <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0">
+                      <img class="card-img-top w-100" src="img/m9.jpg" alt=""  style="height: 290px;"/>
+
+          <h3 class="card-title text-danger" style="font-size: 15px;">Mortal Engines</h3>
+          <span class="text-light" style="font-size: 15px;">100min | Action</span>
+        </div>
+         </div>
+        <!-- card 10-->
+         <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0">
+                      <img class="card-img-top w-100" src="img/m10.jpg" alt="" style="height: 290px;" />
+
+          <h3 class="card-title text-danger" style="font-size: 15px;">UnderWorld Blood Wars</h3>
+          <span class="text-light" style="font-size: 15px;">100min | Action</span>
+        </div>
+         </div>
+      </div>
+  </div>
+    </section>
+    <!-- Movies -->
+
+<!-- Coming Soon -->
+<section id="coming-soon" class="coming py-5">
+  <div class="container-fluid container-lg">
+    <h2 class="heading text-light text-uppercase mb-4" style="font-size: 18px;">Coming Soon</h2>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/coming1.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">Joney English</h3>
+          <span class="text-light" style="font-size: 15px;">80min | Comedy</span>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/coming2.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">WarCraft</h3>
+          <span class="text-light" style="font-size: 15px;">120min | Action</span>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/coming3.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">Rampage</h3>
+          <span class="text-light" style="font-size: 15px;">108min | Adventure</span>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/coming4.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">Airon Lady</h3>
+          <span class="text-light" style="font-size: 15px;">120min | Comedy</span>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/coming5.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">Justice League</h3>
+          <span class="text-light" style="font-size: 15px;">120min | Adventure</span>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/coming6.jpeg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">Doctor Strange</h3>
+          <span class="text-light" style="font-size: 15px;">120min | Adventure</span>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/coming7.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">Captain Marvel</h3>
+          <span class="text-light" style="font-size: 15px;">120min | Adventure</span>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/coming8.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">Black Widow</h3>
+          <span class="text-light" style="font-size: 15px;">90min | Action</span>
+        </div>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/coming9.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">Ant Man</h3>
+          <span class="text-light" style="font-size: 15px;">110min | Adventure</span>
+        </div>
+      </div>
+
+      <!-- Card 10 -->
+      <div class="col-3 col-md-4 col-lg-3">
+        <div class="card bg-transparent border-0 ">
+          <img class="card-img-top w-100" src="img/coming10.jpg" alt="" style="height: 290px;" />
+          <h3 class="card-title text-danger fs-6 mt-2" style="font-size: 15px;">Guardians Of The Galaxy</h3>
+          <span class="text-light" style="font-size: 15px;">120min | Adventure</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- coming soon -->
+    <!-- Newsletter -->
+
+
+
+    <section id="newsletter" class="news d-flex flex-column align-items-center justify-content-center gap-4 mx-auto" style="max-width: 1000px;">
+      <h2 class="text-center fw-bold text-light">
+        Subscribe To Get <br />
+        Newsletter
+      </h2>
+      <form class="d-flex align-items-center p-2 rounded">
+        <input class="form-control border-0 me-2" type="email" placeholder="Enter Email..."  />
+        <input type="submit" value="Subscribe" class="btn text-uppercase fw-semibold border-0" />
+      </form>
+    </section>
+    <!-- Newsletter -->
+    <!-- footer -->
+    <section class="footer d-flex align-items-center justify-content-between mx-auto">
+      <a href="index.html" class="logo d-flex align-items-center fw-semibold text-decoration-none">
+        <i class="fa-solid fa-film"></i> Movies
+      </a>
+      <div class="social-icons d-flex align-items-center">
+        <a href="#" class="d-inline-block text-center rounded-circle"> <i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="d-inline-block text-center rounded-circle"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="d-inline-block text-center rounded-circle"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="d-inline-block text-center rounded-circle"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </section>
+    <!-- footer -->
+    <!-- copyrights -->
+    <div class="copy text-center text-light">
+      <p>&#169; <span class="text-danger">Web Masters</span> All Right Reserved.</p>
+    </div>
+    <!-- copyrights -->
+    <script src="js/main.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+</html>

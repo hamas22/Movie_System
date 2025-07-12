@@ -1,0 +1,126 @@
+html {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: var(--text-color);
+}
+html::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 5rem;
+}
+
+:root {
+  --main-color:#ff2c1f;
+  --bg-color:#fff;
+}
+section {
+  padding: 4.5rem 1.5rem;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.dropdown-item:hover {
+  color: red !important;
+  text-decoration: underline !important;
+}
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar.navbar-scrolled {
+  background-color: white !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.navbar-scrolled .nav-link,
+.navbar.navbar-scrolled .navbar-brand {
+  color: #000000 !important;
+}
+
+/* Home */
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/home3.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: -40px;
+}
+
+/* Home */
+
+/* Movies */
+.heading {
+  border-bottom: 1px solid var(--main-color);
+}
+.movies-container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px,auto));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card img:hover {
+  transform:translateY(-10px);
+}
+
+
+.news form {
+
+  background-color: var(--bg-color);
+}
+ .news form input[type="email"] {
+
+  width: 300px;
+}
+
+.news .btn {
+
+  background-color: var(--main-color);
+  color: var(--bg-color);
+  padding: 0.7rem 1.4rem;
+  border-radius: 0.5rem;
+
+} 
+
+/* news */
+/* footer */
+.footer {
+  max-width: 1000px;
+}
+.footer .logo {
+  font-size: 1.1rem;
+  color: var(--bg-color);
+  column-gap: 0.5rem;
+}
+.logo i {
+  font-size: 24px;
+  color: var(--main-color);
+}
+.social-icons {
+  column-gap: 0.5rem;
+}
+.social-icons a {
+  width: 55px;
+  height: 55px;
+  font-size: 2rem;
+  line-height: 55px;
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  border: 4px solid rgb(2, 3, 7, 0.4) ;
+  transition: 0.2s all linear;
+}
+.social-icons a:hover {
+  background-color: var(--main-color);
+  color: var(--bg-color);
+}
+/* footer */
+/* copy */
+
