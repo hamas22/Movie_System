@@ -2,13 +2,12 @@
 
 This project is a frontend for a movie Browse website. It has been completely **refactored** from an older version using the **Bootstrap 5** framework to create a modern, appealing, and fully responsive design.
 
-![Project Screenshot](https_add_your_screenshot_link_here.png)
 > ---
 
 ## 🎬 Live Demo
 
 You can view the live version of the project at the following link:
-**[Add your live demo link here - e.g., your GitHub Pages URL]**
+**https://hamas22.github.io/Movie_System/**
 
 ---
 
@@ -36,7 +35,7 @@ The original version of this project was built with legacy technologies and had 
 -   **HTML5:** For structuring the web pages.
 -   **CSS3:** For custom styling and design.
 -   **Bootstrap 5:** The core framework for layout, components, and responsiveness.
--   **JavaScript:** [Mention if you used any JS for interactivity. If not, you can remove this line].
+-   **JavaScript:** .
 
 ---
 
@@ -44,15 +43,6 @@ The original version of this project was built with legacy technologies and had 
 
 To get a local copy up and running, follow these simple steps.
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
-    ```
-
-2.  **Navigate to the project directory:**
-    ```bash
-    cd [your-repo-name]
-    ```
 
 3.  **Open the main file:**
     Simply open the `index.html` file in your favorite web browser. No further installation is required!
@@ -69,5 +59,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 If you have any questions or suggestions, feel free to reach out!
 
--   **GitHub:** [@your-username]
--   **LinkedIn:** [your-linkedin-profile-url]
+-   **GitHub:** https://github.com/hamas22/Movie_System.git
+-   **LinkedIn:** https://www.linkedin.com/in/hamas-mohamed-828261357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
